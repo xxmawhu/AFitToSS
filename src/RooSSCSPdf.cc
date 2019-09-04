@@ -479,7 +479,7 @@ Double_t RooSSCSPdf::calEva(const Double_t p4Sigma[4],
     // give the angles
     Double_t theta = P4S0.Theta();
     Double_t theta1 = P4Lambda.Theta();
-    Double_t phi1 = P4LambdaBar.Phi();
+    Double_t phi1 = P4Lambda.Phi();
     Double_t theta2 = P4LambdaBar.Theta();
     Double_t phi2 = P4LambdaBar.Phi();
     Double_t thetaA = P4Proton.Theta();
